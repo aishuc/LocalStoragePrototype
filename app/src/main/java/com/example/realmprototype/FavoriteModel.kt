@@ -31,8 +31,8 @@ open class ParameterModel (
 
     var pid : String? = "",
 
-    var restore: String? = "",
+    var restore: Int = 0,
 
-    var value: String? = "",
+    var value: Int = 0,
     ): RealmObject()
 

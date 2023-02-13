@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
         }
     }
     private fun getAllfavorites(){
-
        viewModel.retrievedata(tvdisplaydata)
     }
     private fun initview(){
